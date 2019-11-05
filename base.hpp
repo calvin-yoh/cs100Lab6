@@ -13,6 +13,7 @@ class Base {
 	Base* right; 
 	
         /* Pure Virtual Functions */
+	virtual int change() = 0;
         virtual double evaluate() = 0;
         virtual std::string stringify() = 0;
 };
