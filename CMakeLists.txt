@@ -8,6 +8,8 @@ SET(CMAKE_CXX_STANDARD 11)
 ADD_EXECUTABLE(test
    test.cpp
    ceiling.cpp
+   floor.cpp
+   abs.cpp
 )
 
 TARGET_LINK_LIBRARIES(test gtest)
